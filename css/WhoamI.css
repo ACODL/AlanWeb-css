@@ -1,0 +1,95 @@
+.home {
+    font-family: courage, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: antiquewhite;
+}
+
+.h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    padding-left: 40px;
+    padding-top: 20px;
+    transition: width 2s;
+    display: flex
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(24, 90, 30)
+}
+
+a:hover {
+    color: rgb(255, 255, 255)
+}
+
+a:visited {
+    color: rgb(24, 90, 30)
+}
+
+
+.drummer {
+    background-image: url(../media/storing-drums.jpeg);
+    background-size: cover;
+    position: relative;
+    height: 10%;
+    max-width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 40px 30px;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 200px;
+    margin: auto;
+
+}
+
+.dog {
+    background-image: url(../media/IMG_6980.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 10%;
+    max-width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 40px 30px;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 200px;
+    margin: auto;
+}
+
+.compsci {
+    background-image: url(../media/photo-1461749280684-dccba630e2f6.jpeg);
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    max-width: min-content;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 40px 30px;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 200px;
+    margin: auto;
+}
+
+.h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(255, 107, 8);
+    display: flex;
+
+
+}
