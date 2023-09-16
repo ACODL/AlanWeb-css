@@ -1,0 +1,74 @@
+.background {
+    background-image: url(../media/037_36a.jpeg);
+    padding: 100px 200px;
+    background-size: cover
+}
+
+.header {
+
+    height: 200px;
+    width: 300px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-base-color: gold;
+    padding: 15px;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.h1 {
+    font-family: "courage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 40px;
+    padding-top: 20px;
+    transition: width 2s;
+}
+
+.h1 hover {
+    font-size: large;
+}
+
+.h2 {
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: #000;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(0);
+    padding-left: 30px;
+}
+
+h2:hover::after {
+    transform: scale(1);
+}
+
+.body {
+    font-family: courage, sans-serif;
+    font-style: medium;
+    font-weight: 500;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(24, 90, 30)
+}
+
+a:hover {
+    color: rgb(255, 255, 255)
+}
+
+a:visited {
+    color: none
+}
